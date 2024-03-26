@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>与你收藏</title>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <meta name="title" content="与你收藏-包容开放温馨">
+    <meta name="description" content="与你收藏是一个便捷的、以用户体验为中心的数字藏品平台。">
+    <meta name="keywords"
+        content="至简,至简Simple,至简社区,与你收藏,至简资源,资源分享,软件下载,游戏资源,资源社区,在线资源,资源共享,社区交流,分享资源,扩列交友,编程交流,技术交流社区,资源下载">
+    <meta name="author" content="与你收藏">
+    <meta name="generator" content="与你收藏 52">
+    <meta name="language" content="zh-CN">
+    <meta name="expires" content="Thu, 01 May 2024 12:28:06 GMT">
+    <meta name="copyright" content="nft.caiths.com">
+    <meta name="designer" content="猫猫摸鱼大队">
+    <meta name="publisher" content="与你收藏">
+    <script>
+        // if (!(/(android|iphone)/i).test(navigator.userAgent)) {
+        //     location.replace('https://nft.caiths.com/')
+        // }
+    </script> <!-- build:css vendor.css -->
+    <link rel="stylesheet" type="text/css" href="m/style.css?v=2010"> <!-- endbuild -->
+</head>
+
+<body>
+    <div class="wrap"> <!-- 头部 -->
+        <header id="header" style="background-color: #fff;"> <!-- <i class="nav"></i> --> <a class="nav-menu"> <b>
+                    <em></em> </b> </a>
+            <h2><a href="#"><i class="logo"></i></a></h2>
+            <div class="nav-list-wrap">
+                <ul>
+                    <li><a href="#">前往官网</a></li>
+                    <li><a href="#">产品服务</a></li>
+                    <li><a href="#">APP下载</a></li>
+                    <li><a href="#">开放平台</a></li>
+                </ul>
+            </div>
+        </header> <!-- 蒙版 --> <i id="os-mask"></i> <!-- 主体 -->
+        <div class="content">
+            <section class="page page1">
+                <div class="opactiy image fadeInUp animated"><img width="100%" src="m/images/store/icon.png"
+                        alt="至简Simple" /></div>
+                <p class="opactiy font30 title animated fadeInUp delay002">至简Simple</p>
+                <p class="opactiy gray animated fadeInUp delay003">一个包容开放又温馨的地方</p> <button
+                    class="opactiy btn animated fadeInUp delay004" id="download">下载</button>
+            </section>
+            <section class="page page2">
+                <img class="image2" src="m/images/store/img1.png">
+                <section class="page page3">
+                    <img class="image3" src="m/images/store/img2.png">
+                </section>
+                <section class="page page3">
+                    <img class="image3" src="m/images/store/img3.png">
+                </section>
+                <section class="page page3">
+                    <img class="image3" src="m/images/store/img4.png">
+                </section>
+                <section class="page page3">
+                    <img class="image3" src="m/images/store/img5.png">
+                </section>
+                <section class="page page3">
+                    <img class="image3" src="m/images/store/img6.png">
+                </section>
+                <section class="page page3">
+                    <img class="image3" src="m/images/store/img7.png">
+                </section>
+            </section>
+        </div>
+        <footer>
+            <div class="foot_info">
+                <p>开发者:桑稚&nbsp;<a href="#" style="color: #9c9c9c;">隐私协议</a></p>
+                <p>版本号:0.0.1&nbsp;更新时间:2024.02.01</p>
+                第十五届服务外包创新创业大赛&nbsp;&nbsp;|&nbsp;&nbsp;[A20] - 区块链赋能的数字藏品的信息系统&nbsp;&nbsp;|&nbsp;&nbsp;<a
+                    href="https://icp.gov.moe/?keyword=20230744" target="_blank"
+                    style="color: #9c9c9c;">萌ICP备20230744号</a>
+                <div>
+                    <div class="foot_info">温瞳 版权所有</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        // 使用actActionStat上报会用到pageMap 里面的actId 和 region
+        window.pageData = {
+            pageMap: {
+                actId: "3620",
+                region: "CN"
+            }
+        }
+        window.actId = 3620;
+    </script>
+    <script type="text/javascript" src="m/zepto.min.js"></script> <!-- build:js js/page.js -->
+    <script type="text/javascript" src="m/js/common.js"></script> <!-- endbuild -->
+    <script type="text/javascript">
+        function getQueryString(name) {
+            var paramsStr = window.location?.search || '';
+            paramsStr = paramsStr.replace(/\?/g, '&'); //若有过多?号造成异常，则替换
+            if (paramsStr) {
+                var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+                var r = paramsStr.match(reg);
+                if (r != null) return decodeURI(r[2]);
+                return null;
+            }
+            return null;
+        }
+
+        var storeUrl = 'https://www.123pan.com/s/PziOjv-4H6EH.html',
+            gameUrl = 'https://www.123pan.com/s/PziOjv-4H6EH.html';
+
+        // 菜单切换
+        $(function () {
+            $('#download').on('click', function () {
+                track({
+                    eventId: 'trigger_download',
+                    eventGroup: 'app_behavior',
+                    properties: {
+                        client_timestamp: Date.now(),
+                        element_id: 'download',
+                        element_type: 'component',
+                        app_id: 1,
+                        ext_data: JSON.stringify({ pkgName: 'com.caiths.nft' })
+                    }
+                });
+                location.href = storeUrl;
+            })
+
+            //监听滚动事件
+            $(window).on('scroll', function () {
+                checkShow();
+            })
+
+            // 判断是否元素是否在可是范围
+            function isShow($el) {
+                var winH = $(window).height(), // 获取窗口的高度
+                    scrollH = $(window).scrollTop(), // 获取窗口滚动高度
+                    top = $el.offset().top; // 获取元素距离窗口顶部偏移高度
+
+                if (top < winH + scrollH + 40) {
+                    return true; // 在可视范围中
+                } else {
+                    return false; // 不在可视范围
+                }
+            }
+
+            // 检查是否加动画
+            function checkShow() {
+                $('.page .icon').each(function () {
+                    var curr = $(this);
+                    if (isShow(curr)) {
+                        addAnimate(curr);
+                    }
+                })
+            }
+
+            // 元素加动画效果
+            function addAnimate($el) {
+                var _this = $el;
+                if (_this.hasClass('icon')) {
+                    if (_this.hasClass('icon1')) {
+                        _this.addClass('iconLeft');
+                    } else if (_this.hasClass('icon3')) {
+                        _this.addClass('iconRight');
+                    } else if (_this.hasClass('icon4')) {
+                        _this.addClass('flyLeft');
+                    } else if (_this.hasClass('icon5')) {
+                        _this.addClass('flyRight');
+                    } else if (_this.hasClass('icon6')) {
+                        _this.addClass('flyBottom');
+                    } else {
+                        _this.addClass('iconBottom');
+                    }
+                }
+            }
+
+        })
+    </script>
+    <script type="text/javascript">
+            (function (win) {
+                var market = "com.caiths.nft";
+                var gameCenter = "com.caiths.nft";
+                var uaTest = navigator.userAgent.match(/android ([^;]+)/i);
+                var androidVersion = 10;
+                if (uaTest && uaTest[1]) {
+                    androidVersion = uaTest[1].replace(/\..+/, '') - 0
+                }
+
+                var replaceDownloadUrl = function (market, game) {
+                    storeUrl = market || storeUrl;
+                    gameUrl = game || gameUrl;
+                    if (androidVersion < 10) {
+                        storeUrl = 'https://www.123pan.com/s/PziOjv-4H6EH.html'
+                    }
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: "https://www.123pan.com/s/PziOjv-4H6EH.html",
+                    contentType: "application/json;charset=UTF-8",
+                    data: JSON.stringify([market, gameCenter]),
+                    success: function (data) {
+                        var m = "";
+                        var g = "";
+                        data.forEach(function (app) {
+                            switch (app.pkg) {
+                                case market:
+                                    m = app.link;
+                                    break;
+                                case gameCenter:
+                                    g = app.link;
+                                    break;
+                            }
+                        });
+                        replaceDownloadUrl(m, g);
+                    },
+                });
+            })(window);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+#content{
+	position: relative;
+}
+
+.slide_banner{
+	position: relative;
+}
+.banner_bg{
+	position: absolute;	
+	left: 0;
+	top: 0;
+	height: 490px;
+	z-index: 1;
+	width: 100%;
+    background-color: #f4f4f4;
+    background-position: 50% 0;
+}
+
+.banner_nav{
+	display:none;
+	position: absolute;
+	left: 50%;
+	bottom: 12px;
+	z-index: 999;
+}
+.banner_nav li{
+	float: left;
+	width: 12px;
+	height: 12px;
+	background:url(../images/dot.png) no-repeat;
+	_width:10px;
+	_height:10px;
+   	_background:#318d5c;
+	margin-right: 18px;
+    cursor: pointer;
+	font-size:0;
+}
+.banner_nav li.active{
+	background:url(../images/dot-now.png) no-repeat;
+    _background:#87e397;
+}
+.banner_content{
+	margin: 0 auto;
+	position: relative;
+	z-index: 100;
+}
+.banner_content img{width:100%}
+.banner_img{
+	position: absolute;
+	z-index: 2;
+    left: -150%;
+}
+.banner_img  img{
+	width:940px;height:490px;
+}
+.banner_bar_bg{
+    width: 940px;
+    height: 3px;
+   /* background: url(../images/bar-bg.png) no-repeat;*/
+    margin: 0 auto;
+    bottom: 2px;
+    position: relative;
+    z-index: 99999;
+	visibility:hidden;
+}
+.banner_bar{
+	height: 3px;
+	width: 0;
+	background: #00925f;
+	position: absolute;
+	left: 0;
+	z-index: 999;
+	visibility:hidden;
+}
+
+
+.floor{margin:70px auto;width:1200px;}
+
+/*可可手机免费软件*/
+.soft_area{width:604px;float:left;}
+.title{font-size:16px;color:#505765;height:38px;line-height:32px;margin-bottom:28px;font-weight:bold;background:url(../images/hd_border.png) 0 100% repeat-x;_height:30px;_padding-top:6px;}
+/*.title .devide{background:url(../images/devide_bg.png)  no-repeat;position:relative;top:3px;width:4px;height:17px;display:inline-block;margin-left:8px;margin-right:13px;*top:0;}*/
+.title img{vertical-align:middle;margin-left:8px;margin-right:13px;}
+.title .desp{color:#57ad97;font-size:13px;}
+.soft_list{position:relative;float:left;width:600px;height:260px;}
+.li_left{float:left;width:95px;height:99px;margin-top:5px;margin-left:3px;_margin-left:1px;overflow:hidden;}
+.market{margin-top:10px;}
+.li_middle{margin-left:128px;margin-right:142px;width:234px;}
+.li_right{position:absolute;width:138px;right:60px;top:0;}
+h2{font-size:22px;}
+.soft_list h3{color: #b3b3b3;font-weight: normal;font-size:16px;}
+.soft_list .app-info{display:block;padding-left:130px;padding-top:25px;position:relative;height:75px;width:390px;}
+.soft_list a,.soft_list a:hover,.soft_list a:visited{display: block;color:#4d4d4d;text-decoration: none;}
+.soft_list .img{position:absolute;left:0;top:0;width: 99px;height: 99px;}
+.soft_list .logo{width:160px;left:-30px;}
+.soft_list .btn{
+	width:100px;height:28px;display:block;
+	color:#fff;background: #ffb733;
+    font-size: 14px;line-height:28px;text-align: center;border-radius: 15px;
+}
+.soft_list .intro{color:#727272;line-height:1.5;width:400px;padding-top:30px;font-size:14px;font-family:方正兰亭纤黑简体;}
+.intro.market{width:300px}
+.soft_list .qr{width: 100px;text-align: center;
+    position: absolute;right: 40px;top: 0;}
+.qr img{width: 100%}
+.qr.oppo{right: 164px;}
+.qr .version{font-size:12px;margin-bottom:16px;}
+.soft_list.right{padding-left:80px;width:520px;}
+.soft_list.right .qr{right: 0;}
+.soft_list .line{position: absolute;width: 1px;top: 0;bottom: 0;background: #ccc;right:2px;}
+.detail{color:#4fa894;font-size:11px;line-height:20px;}
+.btn_area{display:inline-block;background:url(../images/downloads.png) 0 0 no-repeat;width:88px;height:40px;margin-top:16px;}
+.btn_area:hover{background:url(../images/downloads.png) 0 -43px;}
+.li_right div{text-align:center;margin:7px auto;font-size:13px;color:#747f87;background:url(../images/arrow_right.png) no-repeat 0 4px;padding-left:24px;width:4em;} 
+.li_right img{background:url(../images/erwei_bg.png) no-repeat;width:104px;height:104px;padding: 10px 16px;}
+.bottom_service{text-align: center;
+    font-size: 16px;
+    background: #f2f2f2;
+    padding: 25px 0;
+    font-weight: bold;}
+.bottom_service a{padding: 0 30px;
+    font-weight: bold;
+    color: #999999;}
+.bottom_service a.border{border-right: solid 2px #999999;}
+
+/*平台*/
+.platform{float:right;width:214px;margin-left:12px;_margin-left:6px;}
+.area{margin-bottom:48px;}
+.platform h3{height:40px;line-height:40px;padding-left:45px;color:#595d63;font-size:16px;font-weight:bold;text-shadow:0 1px 0 #fff;margin-bottom:12px;}
+.developer_area h3{background:url(../images/andriod.png) no-repeat 4px 50%;}
+.designer_area  h3{background:url(../images/platte.png) no-repeat 4px 50%;}
+.login_btn{display:block;width:164px;height:69px;line-height:64px;padding-left:52px;text-align:center;font-size:22px;color:#fff;text-shadow:0 3px 5px rgba(0,0,0,0.3);background:url(../images/buttons.png) no-repeat 0 0;text-overflow:ellipsis; overflow:hidden; white-space:nowrap; }
+.login_btn:hover{background:url(../images/buttons.png) no-repeat 0 -73px;text-decoration:none;}
+.comment{color:#595d63;font-size:13px;margin:10px 0 0;text-indent:10px;}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="至简空间-包容开放温馨">
+    <meta name="description" content="至简空间是一个便捷的、以用户体验为中心的数字藏品平台。">
+    <meta name="keywords"
+        content="至简,至简Simple,至简社区,至简空间,至简资源,资源分享,软件下载,游戏资源,资源社区,在线资源,资源共享,社区交流,分享资源,扩列交友,编程交流,技术交流社区,资源下载">
+    <meta name="author" content="至简空间">
+    <meta name="generator" content="至简空间 52">
+    <meta name="language" content="zh-CN">
+    <meta name="expires" content="Thu, 01 May 2024 12:28:06 GMT">
+    <meta name="copyright" content="nft.caiths.com">
+    <meta name="designer" content="猫猫摸鱼大队">
+    <meta name="publisher" content="至简空间">
+
+    <title>至简Simple</title>
+    <script>
+        console.log(navigator.userAgent)
+        if ((/(android|iphone)/i).test(navigator.userAgent)) {
+            location.replace('./m/')
+        }
+        //if(/oppomobile\.com/.test(location.host)){location.replace('https://www.heytapmobi.com/')}
+    </script>
+    <!--[if lte IE 6]><script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script> <script type="text/javascript"> DD_belatedPNG.fix('div, ul,.banner_img img,h3, a,span,dl,.market img'); </script> <![endif]-->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <style>
+        .foot_info .footer-identification {
+            margin-left: 10px;
+            width: 24px;
+            height: 24px;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            display: inline-block;
+        }
+
+        .foot_info .footer-identification:hover {
+            background-position: -24px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav_area">
+            <a href="javascript:void(0)" title="至简Simple" class="keke"><img src="images/logo.png"></a>
+            <ul class="nav">
+                <li class="now_nav"><a href="javascript:;">APP下载</a></li>
+                <li><a href="#" target="_blank">产品服务</a></li>
+                <li><a href="#" target="_blank">前往官网</a></li>
+                <div class="clear"></div>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <div id="content">
+        <!--轮播图区域-->
+        <div class="slide_banner">
+            <div class="banner_content"><img src="./images/back.png" alt="至简Simple" /></div>
+            <ul class="banner_nav">
+                <li class="active" i="0"></li>
+                <li i="1"></li>
+                <li i="2"></li>
+            </ul>
+            <div class="banner_bar_bg">
+                <div class="banner_bar"></div>
+            </div>
+        </div>
+        <div class="floor w830">
+            <!--软件商店-->
+            <div class="soft_list">
+                <div class="app-info">
+                    <img src="images/icon.jpg" class="logo img" title="至简Simple" alt="至简Simple" />
+                    <h2>至简Simple</h2>
+                    <h3>放心下安心用</h3>
+                </div>
+                <div class="intro market">至简Simple是一个开放包容又温馨的地方
+                </div>
+                <div class="qr oppo">
+                    <img src="images/market-oppo.png" title="扫码下载" />
+                    <p class="version">Android</p>
+                    <a id="oppoMarket" href="https://www.123pan.com/s/PziOjv-4H6EH.html">
+                        <span onclick="downloadReport(1)" class="btn">点击下载</span>
+                    </a>
+                </div>
+
+                <div class="qr">
+                    <img src="images/marketdown.png" title="扫码下载" />
+                    <p class="version">iOS</p>
+                    <a id="market" href="#">
+                        <span onclick="downloadReport(2)" class="btn">点击下载</span>
+                    </a>
+                </div>
+                <!--<div class="line"></div>-->
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="bottom_service">
+            <a href="#" class="border">用户服务</a>
+            <a href="#">商务合作</a>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="foot_bt">
+            <div class="foot_info">
+                <p>开发者:桑稚&nbsp;<a href="#" style="color: #9c9c9c;">隐私协议</a></p>
+                <p>版本号:0.0.1&nbsp;更新时间:2024.02.01</p>
+                第十五届服务外包创新创业大赛&nbsp;&nbsp;|&nbsp;&nbsp;[A20] - 区块链赋能的数字藏品的信息系统&nbsp;&nbsp;|&nbsp;&nbsp;<a
+                    href="https://icp.gov.moe/?keyword=20230744" target="_blank"
+                    style="color: #9c9c9c;">萌ICP备20230744号</a>
+                <div>
+                    <div class="foot_info">温瞳 版权所有</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://static-common.heytapdownload.com/otrack/otrack-mininal-latest.min.js"></script>
+    <script type="text/javascript">
+        if (/oppomobile/i.test(location.host)) {
+            $('#vTag').text('-5')
+        } else if (/heytapmobi/i.test(location.host)) {
+            $('#vTag').text('-32')
+        }
+        var actId = 3620;
+        var obus = new OTrack({
+            app_id: '113001',
+            app_key: '1360',
+            region: 'cn',
+            env: 'prod',
+            is_single_page_app: false
+        });
+        var channelName = getQueryString('channelName');
+        var obusHead = { 'activity_id': actId };
+        if (channelName) {
+            obusHead.activity_channel = channelName;
+        }
+        obus.setCustomHead(obusHead);
+        obus.track({
+            eventId: 'expose_activity',
+            eventGroup: 'exposure',
+            properties: {
+                client_timestamp: Date.now()
+            }
+        });
+        function downloadReport(app) {
+            var pkg;
+            var ids = { '1': 'oppoMarket', '2': 'market', '3': 'gameCenter' };
+            if (app == 1) {
+                pkg = 'com.oppo.market'
+            } else if (app == 2) {
+                pkg = 'com.heytap.market'
+            } else {
+                app = 3;
+                pkg = 'com.nearme.gamecenter'
+            }
+            webReport({
+                type: 3,
+                actid: actId,
+                data: pkg
+            });
+            obus.track({
+                eventId: 'trigger_download',
+                eventGroup: 'app_behavior',
+                properties: {
+                    client_timestamp: Date.now(),
+                    element_id: ids[app],
+                    element_type: 'component',
+                    app_id: app,
+                    ext_data: JSON.stringify({ pkgName: pkg })
+                }
+            });
+        }
+
+        function getQueryString(name) {
+            var paramsStr = window.location?.search || '';
+            paramsStr = paramsStr.replace(/\?/g, '&'); //若有过多?号造成异常，则替换
+            if (paramsStr) {
+                var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+                var r = paramsStr.match(reg);
+                if (r != null) return decodeURI(r[2]);
+                return null;
+            }
+            return null;
+        }
+
+        (function (win) {
+            var oppoMarket = "com.oppo.market";
+            var market = "com.heytap.market";
+            var gameCenter = "com.nearme.gamecenter";
+            var pkgs = [oppoMarket, market, gameCenter];
+            $.ajax({
+                type: "POST",
+                url: "https://www.123pan.com/s/PziOjv-4H6EH.html",
+                contentType: "application/json;charset=UTF-8",
+                data: JSON.stringify(pkgs),
+                success: function (data) {
+                    data.forEach(function (app) {
+                        switch (app.pkg) {
+                            case oppoMarket:
+                                $('#oppoMarket').attr('href', app.link);
+                                break;
+                            case market:
+                                $('#market').attr('href', app.link);
+                                break;
+                            case gameCenter:
+                                $('#gameCenter').attr('href', app.link)
+                                break;
+                        }
+                    });
+                },
+            });
+        })(window);
+    </script>
+</body>
+
+</html>

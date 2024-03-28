@@ -8,8 +8,7 @@
         content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <meta name="title" content="与你收藏-包容开放温馨">
     <meta name="description" content="与你收藏是一个便捷的、以用户体验为中心的数字藏品平台。">
-    <meta name="keywords"
-        content="至简,与你收藏,至简社区,与你收藏,至简资源,资源分享,软件下载,游戏资源,资源社区,在线资源,资源共享,社区交流,分享资源,扩列交友,编程交流,技术交流社区,资源下载">
+    <meta name="keywords" content="与你收藏,至简社区,与你收藏数字藏品,数字收藏">
     <meta name="author" content="与你收藏">
     <meta name="generator" content="与你收藏 52">
     <meta name="language" content="zh-CN">
@@ -18,9 +17,9 @@
     <meta name="designer" content="猫猫摸鱼大队">
     <meta name="publisher" content="与你收藏">
     <script>
-        // if (!(/(android|iphone)/i).test(navigator.userAgent)) {
-        //     location.replace('https://nft.caiths.com/')
-        // }
+        if (!(/(android|iphone)/i).test(navigator.userAgent)) {
+            location.replace('http://nftdd.caiths.com')
+        }
     </script> <!-- build:css vendor.css -->
     <link rel="stylesheet" type="text/css" href="m/style.css?v=2010"> <!-- endbuild -->
 </head>
@@ -32,10 +31,10 @@
             <h2><a href="#"><i class="logo"></i></a></h2>
             <div class="nav-list-wrap">
                 <ul>
-                    <li><a href="#">前往官网</a></li>
-                    <li><a href="#">产品服务</a></li>
-                    <li><a href="#">APP下载</a></li>
-                    <li><a href="#">开放平台</a></li>
+                    <li><a href="https://nftt.caiths.com">前往官网</a></li>
+                    <li><a href="https://nftt.caiths.com">产品服务</a></li>
+                    <li><a href="https://qixint.caiths.com/ynsc.apk">APP下载</a></li>
+                    <li><a href="https://nftd.caiths.com/api.html">开放平台</a></li>
                 </ul>
             </div>
         </header> <!-- 蒙版 --> <i id="os-mask"></i> <!-- 主体 -->
@@ -44,9 +43,15 @@
                 <div class="opactiy image fadeInUp animated"><img width="100%" src="m/images/store/icon.png"
                         alt="与你收藏" /></div>
                 <p class="opactiy font30 title animated fadeInUp delay002">与你收藏</p>
-                <p class="opactiy gray animated fadeInUp delay003">一站式数字藏品服务平台</p> <button
-                    class="opactiy btn animated fadeInUp delay004" id="download">下载</button>
+                <p class="opactiy gray animated fadeInUp delay003">一站式数字藏品服务平台</p>
+                <button class="opactiy btn animated fadeInUp delay004" id="download">下载</button>
             </section>
+            <script>
+                document.getElementById("download").addEventListener("click", function() {
+                    window.location.href = "https://qixint.caiths.com/ynsc.apk";
+                });
+                </script>
+                
             <section class="page page2">
                 <img class="image2" src="m/images/store/img1.png">
                 <section class="page page3">
@@ -107,8 +112,8 @@
             return null;
         }
 
-        var storeUrl = 'https://www.123pan.com/s/PziOjv-4H6EH.html',
-            gameUrl = 'https://www.123pan.com/s/PziOjv-4H6EH.html';
+        var storeUrl = 'https://qixint.caiths.com/ynsc.apk',
+            gameUrl = 'https://qixint.caiths.com/ynsc.apk';
 
         // 菜单切换
         $(function () {
@@ -191,13 +196,13 @@
                     storeUrl = market || storeUrl;
                     gameUrl = game || gameUrl;
                     if (androidVersion < 10) {
-                        storeUrl = 'https://www.123pan.com/s/PziOjv-4H6EH.html'
+                        storeUrl = 'https://qixint.caiths.com/ynsc.apk'
                     }
                 };
 
                 $.ajax({
                     type: "POST",
-                    url: "https://www.123pan.com/s/PziOjv-4H6EH.html",
+                    url: "https://qixint.caiths.com/ynsc.apk",
                     contentType: "application/json;charset=UTF-8",
                     data: JSON.stringify([market, gameCenter]),
                     success: function (data) {
